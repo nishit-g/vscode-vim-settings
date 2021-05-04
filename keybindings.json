@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "Alt+k Alt+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "Alt+k Alt+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "Alt+k Alt+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "Alt+k Alt+x",
+    "command": "workbench.extensions.action.showInstalledExtensions"
+  },
+  {
+    "key": "Alt+k Alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "Alt+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "Alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+
+  //File Explorer
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+ctrl+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  }
+]
