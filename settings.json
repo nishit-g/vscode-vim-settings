@@ -1,13 +1,10 @@
 {
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
-  "editor.formatOnSave": true,
+  // "terminal.integrated.shell.windows": "C:\\Users\\Nishit.Gupta\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.printWidth": 120,
-  "workbench.iconTheme": "Monokai Pro Icons",
-  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "quokka.compactMessageOutput": false,
+  "quokka.automaticRestart": true,
+  "settingsSync.ignoredExtensions": [],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
     "**/.classpath": true,
@@ -15,8 +12,8 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-
-  "workbench.startupEditor": "newUntitledFile",
+  "telemetry.enableTelemetry": false,
+  "editor.suggestSelection": "first",
 
   //Better Defaults
   "editor.lineNumbers": "relative",
@@ -27,7 +24,7 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.lineHeight": 30,
-
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   //Hide
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
@@ -46,6 +43,10 @@
     {
       "before": ["<S-tab>"],
       "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -72,7 +73,7 @@
     "<C-a>": false,
     "<C-f>": false,
     // VS Code new marker @ next occurence
-    "<C-d>": false,
+    // "<C-d>": false,
     // Copy
     "<C-c>": false,
     // Cut
@@ -81,5 +82,34 @@
     "<C-v>": false,
     "<C-z>": false,
     "<C-y>": false
-  }
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#D5C4A1",
+    "terminalCursor.background": "#D5C4A1",
+    "terminalCursor.foreground": "#D5C4A1",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#83A598",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#83A598",
+    "terminal.ansiBrightCyan": "#8EC07C",
+    "terminal.ansiBrightGreen": "#B8BB26",
+    "terminal.ansiBrightMagenta": "#D3869B",
+    "terminal.ansiBrightRed": "#FB4934",
+    "terminal.ansiBrightWhite": "#FBF1C7",
+    "terminal.ansiBrightYellow": "#FABD2F",
+    "terminal.ansiCyan": "#8EC07C",
+    "terminal.ansiGreen": "#B8BB26",
+    "terminal.ansiMagenta": "#D3869B",
+    "terminal.ansiRed": "#FB4934",
+    "terminal.ansiWhite": "#D5C4A1",
+    "terminal.ansiYellow": "#FABD2F"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
 }
